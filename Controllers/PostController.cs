@@ -167,29 +167,30 @@ namespace RedditApi.Controllers
         }
 
         [HttpGet("posts/{id:int}/comments")]
-        public async Task<ApiResponse<List<CommentDTO>>> getCommentsByPostId(int id)
+        public async Task<ApiResponse<List<CommentsDetailDTO>>> getCommentsByPostId(int id)
         {
             if (id > 0)
             {
-                var comments = await _context.Comments.Where(e => e.PostId == id).Select(e => new CommentDTO() {
-                    Id = e.Id,
-                    UserId = e.UserId,
-                    PostId = e.PostId,
+                var comments = await _context.Commentsdetails.Where(e => e.PostId == id).Select(e => new CommentsDetailDTO()
+                {
+                    Id=e.Id,
+                    Username = e.Username,
+                    PostId= e.PostId,
                     Body = e.Body,
-                    CreatedAt = e.CreatedAt,
+                    CreatedAt= e.CreatedAt,
                 }).ToListAsync();
                 if (comments.Count > 0)
                 {
-                    return new ApiResponse<List<CommentDTO>> { status = "success", data = comments };
+                    return new ApiResponse<List<CommentsDetailDTO>> { status = "success", data = comments };
                 }
                 else
                 {
-                    return new ApiResponse<List<CommentDTO>> { status = "fail", error = "no data" };
+                    return new ApiResponse<List<CommentsDetailDTO>> { status = "fail", error = "no data" };
                 }
             }
             else
             {
-                return new ApiResponse<List<CommentDTO>> { status = "error", error = "failed" };
+                return new ApiResponse<List<CommentsDetailDTO>> { status = "error", error = "failed" };
             }
         }
 

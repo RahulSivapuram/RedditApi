@@ -17,6 +17,8 @@ public partial class RedditDbContext : DbContext
 
     public virtual DbSet<Comment> Comments { get; set; }
 
+    public virtual DbSet<Commentsdetail> Commentsdetails { get; set; }
+
     public virtual DbSet<Post> Posts { get; set; }
 
     public virtual DbSet<Postdetail> Postdetails { get; set; }
@@ -54,6 +56,26 @@ public partial class RedditDbContext : DbContext
             entity.HasOne(d => d.User).WithMany(p => p.Comments)
                 .HasForeignKey(d => d.UserId)
                 .HasConstraintName("FK__comments__user_I__3F466844");
+        });
+
+        modelBuilder.Entity<Commentsdetail>(entity =>
+        {
+            entity
+                .HasNoKey()
+                .ToView("commentsdetail");
+
+            entity.Property(e => e.Body)
+                .HasColumnType("text")
+                .HasColumnName("body");
+            entity.Property(e => e.CreatedAt)
+                .HasColumnType("datetime")
+                .HasColumnName("created_At");
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.PostId).HasColumnName("post_Id");
+            entity.Property(e => e.Username)
+                .HasMaxLength(256)
+                .IsUnicode(false)
+                .HasColumnName("username");
         });
 
         modelBuilder.Entity<Post>(entity =>

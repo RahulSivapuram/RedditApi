@@ -1,17 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rahul\\OneDrive\\Desktop\\git hub push\\RedditApi\\",
+  "WorkspaceRootPath": "C:\\Users\\rahul\\OneDrive\\Desktop\\projects\\angular-projects\\RedditApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29BF2C38-2325-4DBF-9C65-88C44EB10CCB}|RedditApi.csproj|c:\\users\\rahul\\onedrive\\desktop\\git hub push\\redditapi\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29BF2C38-2325-4DBF-9C65-88C44EB10CCB}|RedditApi.csproj|c:\\users\\rahul\\onedrive\\desktop\\projects\\angular-projects\\redditapi\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29BF2C38-2325-4DBF-9C65-88C44EB10CCB}|RedditApi.csproj|solutionrelative:controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29BF2C38-2325-4DBF-9C65-88C44EB10CCB}|RedditApi.csproj|c:\\users\\rahul\\onedrive\\desktop\\git hub push\\redditapi\\helpers\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29BF2C38-2325-4DBF-9C65-88C44EB10CCB}|RedditApi.csproj|solutionrelative:helpers\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29BF2C38-2325-4DBF-9C65-88C44EB10CCB}|RedditApi.csproj|c:\\users\\rahul\\onedrive\\desktop\\projects\\angular-projects\\redditapi\\helpers\\commentsdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29BF2C38-2325-4DBF-9C65-88C44EB10CCB}|RedditApi.csproj|solutionrelative:helpers\\commentsdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29BF2C38-2325-4DBF-9C65-88C44EB10CCB}|RedditApi.csproj|c:\\users\\rahul\\onedrive\\desktop\\git hub push\\redditapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29BF2C38-2325-4DBF-9C65-88C44EB10CCB}|RedditApi.csproj|c:\\users\\rahul\\onedrive\\desktop\\projects\\angular-projects\\redditapi\\controllers\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29BF2C38-2325-4DBF-9C65-88C44EB10CCB}|RedditApi.csproj|solutionrelative:controllers\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29BF2C38-2325-4DBF-9C65-88C44EB10CCB}|RedditApi.csproj|c:\\users\\rahul\\onedrive\\desktop\\projects\\angular-projects\\redditapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29BF2C38-2325-4DBF-9C65-88C44EB10CCB}|RedditApi.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29BF2C38-2325-4DBF-9C65-88C44EB10CCB}|RedditApi.csproj|c:\\users\\rahul\\onedrive\\desktop\\projects\\angular-projects\\redditapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29BF2C38-2325-4DBF-9C65-88C44EB10CCB}|RedditApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,27 +30,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rahul\\OneDrive\\Desktop\\git hub push\\RedditApi\\helpers\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "helpers\\ApiResponse.cs",
-              "ToolTip": "C:\\Users\\rahul\\OneDrive\\Desktop\\git hub push\\RedditApi\\helpers\\ApiResponse.cs",
-              "RelativeToolTip": "helpers\\ApiResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Title": "CommentsDetailDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rahul\\OneDrive\\Desktop\\projects\\angular-projects\\RedditApi\\helpers\\CommentsDetailDTO.cs",
+              "RelativeDocumentMoniker": "helpers\\CommentsDetailDTO.cs",
+              "ToolTip": "C:\\Users\\rahul\\OneDrive\\Desktop\\projects\\angular-projects\\RedditApi\\helpers\\CommentsDetailDTO.cs",
+              "RelativeToolTip": "helpers\\CommentsDetailDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T14:07:11.4Z"
+              "WhenOpened": "2024-07-11T19:48:50.856Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\rahul\\OneDrive\\Desktop\\projects\\angular-projects\\RedditApi\\Controllers\\Account.cs",
+              "RelativeDocumentMoniker": "Controllers\\Account.cs",
+              "ToolTip": "C:\\Users\\rahul\\OneDrive\\Desktop\\projects\\angular-projects\\RedditApi\\Controllers\\Account.cs",
+              "RelativeToolTip": "Controllers\\Account.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:46:51.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\rahul\\OneDrive\\Desktop\\projects\\angular-projects\\RedditApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\rahul\\OneDrive\\Desktop\\projects\\angular-projects\\RedditApi\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:44:43.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\rahul\\OneDrive\\Desktop\\git hub push\\RedditApi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\rahul\\OneDrive\\Desktop\\projects\\angular-projects\\RedditApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\rahul\\OneDrive\\Desktop\\git hub push\\RedditApi\\Program.cs",
+              "ToolTip": "C:\\Users\\rahul\\OneDrive\\Desktop\\projects\\angular-projects\\RedditApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAADUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -52,11 +87,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PostController.cs",
-              "DocumentMoniker": "C:\\Users\\rahul\\OneDrive\\Desktop\\git hub push\\RedditApi\\Controllers\\PostController.cs",
+              "DocumentMoniker": "C:\\Users\\rahul\\OneDrive\\Desktop\\projects\\angular-projects\\RedditApi\\Controllers\\PostController.cs",
               "RelativeDocumentMoniker": "Controllers\\PostController.cs",
-              "ToolTip": "C:\\Users\\rahul\\OneDrive\\Desktop\\git hub push\\RedditApi\\Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\rahul\\OneDrive\\Desktop\\projects\\angular-projects\\RedditApi\\Controllers\\PostController.cs",
               "RelativeToolTip": "Controllers\\PostController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMoAAAAAAAAA",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAowLIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-29T16:55:13.019Z",
               "EditorCaption": ""
